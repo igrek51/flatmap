@@ -43,9 +43,6 @@
   <body>
     <div id="floating-panel">
       <button onclick="toggleHeatmap()">Toggle Heatmap</button>
-      <button onclick="changeGradient()">Change gradient</button>
-      <button onclick="changeRadius()">Change radius</button>
-      <button onclick="changeOpacity()">Change opacity</button>
       <button onclick="setDissipating()">Dissipate</button>
     </div>
     <div id="map"></div>
@@ -99,7 +96,8 @@
           map: map,
           gradient: getGradient(),
           radius: 80,
-          dissipating: true
+          dissipating: true,
+          opacity: 0.4,
         });
 
         addMarkers(map)
