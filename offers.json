@@ -1,0 +1,2330 @@
+[
+    {
+      "id": 524,
+      "vendor": 955,
+      "name": "Wilno",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.083262076054364,
+          52.27507932827439
+        ]
+      }
+    },
+    {
+      "id": 7404,
+      "vendor": 1048,
+      "name": "Na Woli",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.93451625837321,
+          52.22980836836125
+        ]
+      }
+    },
+    {
+      "id": 2893,
+      "vendor": 955,
+      "name": "Żoliborz Artystyczny",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.968929366536255,
+          52.25836442534855
+        ]
+      }
+    },
+    {
+      "id": 11469,
+      "vendor": 4561,
+      "name": "Fabryka PZO",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.06115123238327,
+          52.24803329516165
+        ]
+      }
+    },
+    {
+      "id": 10246,
+      "vendor": 955,
+      "name": "Marina Mokotów",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.985031029901293,
+          52.19762681951912
+        ]
+      }
+    },
+    {
+      "id": 9052,
+      "vendor": 1255,
+      "name": "Apartamenty Raków",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.95413377741415,
+          52.197921047700554
+        ]
+      }
+    },
+    {
+      "id": 10483,
+      "vendor": 940,
+      "name": "Osiedle Hemara",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.04298194622129,
+          52.32631327043789
+        ]
+      }
+    },
+    {
+      "id": 8965,
+      "vendor": 955,
+      "name": "Port Żerań",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.994371158449724,
+          52.30212251125484
+        ]
+      }
+    },
+    {
+      "id": 9708,
+      "vendor": 1010,
+      "name": "Na Mokotowie",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.987543696406245,
+          52.191279150780595
+        ]
+      }
+    },
+    {
+      "id": 11663,
+      "vendor": 941,
+      "name": "Górnośląska 6",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.037346807807047,
+          52.22553535561323
+        ]
+      }
+    },
+    {
+      "id": 10863,
+      "vendor": 1262,
+      "name": "Husa Park",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.954379581577204,
+          52.347975757648044
+        ]
+      }
+    },
+    {
+      "id": 9500,
+      "vendor": 921,
+      "name": "Yana",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.939346855420045,
+          52.22233215998449
+        ]
+      }
+    },
+    {
+      "id": 9669,
+      "vendor": 955,
+      "name": "Apartamenty Dolny Mokotów",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.035898437708195,
+          52.20159071471855
+        ]
+      }
+    },
+    {
+      "id": 10320,
+      "vendor": 5305,
+      "name": "Biały Dom",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.95806580282947,
+          52.31684247656024
+        ]
+      }
+    },
+    {
+      "id": 10254,
+      "vendor": 1224,
+      "name": "Rezydencja Łazienki Park",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.042820166085455,
+          52.21524075375304
+        ]
+      }
+    },
+    {
+      "id": 9352,
+      "vendor": 6052,
+      "name": "Słoneczna Leśniczówka",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.137685100399715,
+          52.227102974871386
+        ]
+      }
+    },
+    {
+      "id": 4508,
+      "vendor": 3947,
+      "name": "Kryształ Powiśla- Solec Residence",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.039412479736704,
+          52.23226170214277
+        ]
+      }
+    },
+    {
+      "id": 8914,
+      "vendor": 1514,
+      "name": "19. Dzielnica / Etap IV",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.98033746112186,
+          52.22631877424009
+        ]
+      }
+    },
+    {
+      "id": 11069,
+      "vendor": 1181,
+      "name": "Moderna Powiśle",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.028751329016696,
+          52.23931123608717
+        ]
+      }
+    },
+    {
+      "id": 11610,
+      "vendor": 884,
+      "name": "Murapol Apartamenty Praskie",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.108306197659452,
+          52.239454325332375
+        ]
+      }
+    },
+    {
+      "id": 7673,
+      "vendor": 863,
+      "name": "Miasto Moje",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.999060424259373,
+          52.31909008781275
+        ]
+      }
+    },
+    {
+      "id": 10712,
+      "vendor": 1013,
+      "name": "Chruściela 54",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.162512111546175,
+          52.25949452497841
+        ]
+      }
+    },
+    {
+      "id": 10557,
+      "vendor": 844,
+      "name": "W Apartments",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.97486625959048,
+          52.23156861568817
+        ]
+      }
+    },
+    {
+      "id": 10305,
+      "vendor": 5619,
+      "name": "Miasteczko Wawer Etap II",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.198192308892,
+          52.15827349453145
+        ]
+      }
+    },
+    {
+      "id": 10122,
+      "vendor": 833,
+      "name": "Warszawski Świt",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.019845192632634,
+          52.28727142883332
+        ]
+      }
+    },
+    {
+      "id": 10659,
+      "vendor": 1048,
+      "name": "Mały Grochów",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.077587046831685,
+          52.25338988293657
+        ]
+      }
+    },
+    {
+      "id": 10735,
+      "vendor": 1181,
+      "name": "Praska Moderna",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.041696694820423,
+          52.24955773040161
+        ]
+      }
+    },
+    {
+      "id": 11423,
+      "vendor": 3023,
+      "name": "Osiedle Echa Leśne",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.036391852982568,
+          52.31436356026506
+        ]
+      }
+    },
+    {
+      "id": 11620,
+      "vendor": 1084,
+      "name": "Apartamenty Ostródzka",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.048720544193202,
+          52.319371209917485
+        ]
+      }
+    },
+    {
+      "id": 11674,
+      "vendor": 3917,
+      "name": "Wrzosowa Aleja",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.074466456872756,
+          52.31314917305528
+        ]
+      }
+    },
+    {
+      "id": 11606,
+      "vendor": 858,
+      "name": "Ursus City Residence",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.857526006925024,
+          52.20258725454287
+        ]
+      }
+    },
+    {
+      "id": 11629,
+      "vendor": 7193,
+      "name": "Natolin Park",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.06671616030553,
+          52.14474824748546
+        ]
+      }
+    },
+    {
+      "id": 11562,
+      "vendor": 6018,
+      "name": "Greenwood III",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.054549844204285,
+          52.34273168188336
+        ]
+      }
+    },
+    {
+      "id": 11682,
+      "vendor": 4660,
+      "name": "Nordic Sadyba",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.06581909014984,
+          52.17634141671581
+        ]
+      }
+    },
+    {
+      "id": 11673,
+      "vendor": 4665,
+      "name": "Nowe międzylesie",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.17283162754883,
+          52.20472772529153
+        ]
+      }
+    },
+    {
+      "id": 11650,
+      "vendor": 1255,
+      "name": "Park Leśny Rembertów Etap II",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.119047838282864,
+          52.27345396855498
+        ]
+      }
+    },
+    {
+      "id": 11531,
+      "vendor": 888,
+      "name": "Mój Ursus Etap 3B",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.881838031680335,
+          52.20446680161535
+        ]
+      }
+    },
+    {
+      "id": 11664,
+      "vendor": 1962,
+      "name": "Villa Aliano",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.031505250066875,
+          52.28340323213585
+        ]
+      }
+    },
+    {
+      "id": 11598,
+      "vendor": 440,
+      "name": "Grodzieńska 19",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.049464266906377,
+          52.25939138863926
+        ]
+      }
+    },
+    {
+      "id": 11692,
+      "vendor": 7582,
+      "name": "Prochowa 42",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.081475043736774,
+          52.24846788638216
+        ]
+      }
+    },
+    {
+      "id": 11543,
+      "vendor": 2918,
+      "name": "Apartamenty nad Potokiem",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.0111143898144,
+          52.17116996558546
+        ]
+      }
+    },
+    {
+      "id": 11568,
+      "vendor": 7942,
+      "name": "Apartamenty Modlińska",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.98594413273445,
+          52.30477068458714
+        ]
+      }
+    },
+    {
+      "id": 11687,
+      "vendor": 1932,
+      "name": "Aluzyjna 19",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.943213957628828,
+          52.346247325524374
+        ]
+      }
+    },
+    {
+      "id": 11530,
+      "vendor": 1046,
+      "name": "Wodociągowa Etap III",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.256823664875068,
+          52.23924822687893
+        ]
+      }
+    },
+    {
+      "id": 11582,
+      "vendor": 1445,
+      "name": "Stacja Targówek",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.045808396627827,
+          52.268068277976184
+        ]
+      }
+    },
+    {
+      "id": 11654,
+      "vendor": 965,
+      "name": "Apartamenty Zwoleńska",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.161507741108416,
+          52.203637247093205
+        ]
+      }
+    },
+    {
+      "id": 11588,
+      "vendor": 833,
+      "name": "Apartamenty Oszmiańska 20",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.04365843070132,
+          52.268136569459685
+        ]
+      }
+    },
+    {
+      "id": 10109,
+      "vendor": 7110,
+      "name": "Bruzdowa 127",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.11196545275016,
+          52.172932749971366
+        ]
+      }
+    },
+    {
+      "id": 10314,
+      "vendor": 1299,
+      "name": "Central Garden",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.98938623375978,
+          52.257857138320674
+        ]
+      }
+    },
+    {
+      "id": 9336,
+      "vendor": 844,
+      "name": "Cascade Residence",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.013567686758623,
+          52.18981061840554
+        ]
+      }
+    },
+    {
+      "id": 11142,
+      "vendor": 1224,
+      "name": "Soho 18",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.063889422243932,
+          52.25127601214081
+        ]
+      }
+    },
+    {
+      "id": 5465,
+      "vendor": 801,
+      "name": "Aura Garden",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.04354997955779,
+          52.3441653366618
+        ]
+      }
+    },
+    {
+      "id": 10582,
+      "vendor": 1046,
+      "name": "Kamienica Grochowska",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.11005887699155,
+          52.2402735949472
+        ]
+      }
+    },
+    {
+      "id": 10989,
+      "vendor": 7292,
+      "name": "Villa Berensona",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.054634798995043,
+          52.32499272742045
+        ]
+      }
+    },
+    {
+      "id": 6613,
+      "vendor": 542,
+      "name": "Viva Garden",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.02891824435268,
+          52.31241575561065
+        ]
+      }
+    },
+    {
+      "id": 10633,
+      "vendor": 7478,
+      "name": "Moje Miejsce",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.047489976691477,
+          52.193828189204964
+        ]
+      }
+    },
+    {
+      "id": 10546,
+      "vendor": 912,
+      "name": "Nova Bluszczańska",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.07017934639679,
+          52.21127129093637
+        ]
+      }
+    },
+    {
+      "id": 11071,
+      "vendor": 1236,
+      "name": "Mińska 69 - Etap II",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.0719422572913,
+          52.25203795682209
+        ]
+      }
+    },
+    {
+      "id": 7842,
+      "vendor": 5506,
+      "name": "Skarbka Skwer",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.0573813023978,
+          52.32247889174245
+        ]
+      }
+    },
+    {
+      "id": 11401,
+      "vendor": 746,
+      "name": "Comfort City Ametyst",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.950775152847072,
+          52.339137608896145
+        ]
+      }
+    },
+    {
+      "id": 9561,
+      "vendor": 1854,
+      "name": "Mińska 63",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.063640255856168,
+          52.24965784893896
+        ]
+      }
+    },
+    {
+      "id": 7032,
+      "vendor": 844,
+      "name": "Riviera Park",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.994410134568124,
+          52.30974302752909
+        ]
+      }
+    },
+    {
+      "id": 8603,
+      "vendor": 2856,
+      "name": "Next Ursus",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.880646204710885,
+          52.20701441333127
+        ]
+      }
+    },
+    {
+      "id": 10464,
+      "vendor": 1378,
+      "name": "Koprzywiańska 25",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.119028873330265,
+          52.241420578079364
+        ]
+      }
+    },
+    {
+      "id": 6904,
+      "vendor": 4732,
+      "name": "Apartamenty Warszawianka",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.031467192093864,
+          52.199780664756034
+        ]
+      }
+    },
+    {
+      "id": 10632,
+      "vendor": 7478,
+      "name": "Osiedle Reset",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.99051630210476,
+          52.179424722161876
+        ]
+      }
+    },
+    {
+      "id": 10518,
+      "vendor": 955,
+      "name": "Apartamenty Ogrodowa",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.988816996429296,
+          52.238608870399105
+        ]
+      }
+    },
+    {
+      "id": 10231,
+      "vendor": 5723,
+      "name": "Sokratesa 17b",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.93101474137606,
+          52.288329291031474
+        ]
+      }
+    },
+    {
+      "id": 8111,
+      "vendor": 888,
+      "name": "Forum Wola",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.94021365006763,
+          52.22380366422607
+        ]
+      }
+    },
+    {
+      "id": 9730,
+      "vendor": 1034,
+      "name": "MOKOsfera",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.991072990311697,
+          52.18567400457191
+        ]
+      }
+    },
+    {
+      "id": 10278,
+      "vendor": 544,
+      "name": "Mehoffera",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.949529269917704,
+          52.32659915155896
+        ]
+      }
+    },
+    {
+      "id": 10525,
+      "vendor": 6018,
+      "name": "Greenwood II",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.054420148828726,
+          52.3425677458598
+        ]
+      }
+    },
+    {
+      "id": 10396,
+      "vendor": 856,
+      "name": "Wiktoria",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.0763811572974,
+          52.15426199350887
+        ]
+      }
+    },
+    {
+      "id": 9605,
+      "vendor": 816,
+      "name": "Marywilska Osiedle Kameralne",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.00061021300276,
+          52.31934217294683
+        ]
+      }
+    },
+    {
+      "id": 11434,
+      "vendor": 1378,
+      "name": "Naukowa 16",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.93265624813373,
+          52.204598385530176
+        ]
+      }
+    },
+    {
+      "id": 11341,
+      "vendor": 1363,
+      "name": "Willa Banacha",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.974924380617693,
+          52.21265910791466
+        ]
+      }
+    },
+    {
+      "id": 11204,
+      "vendor": 7714,
+      "name": "Rezydencja pod Świerkami",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.229710821519006,
+          52.22027492914517
+        ]
+      }
+    },
+    {
+      "id": 11099,
+      "vendor": 833,
+      "name": "Metro Park",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.9655914413536,
+          52.275205609648545
+        ]
+      }
+    },
+    {
+      "id": 9202,
+      "vendor": 1986,
+      "name": "Park Skandynawia",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.108356036173472,
+          52.23165805657941
+        ]
+      }
+    },
+    {
+      "id": 11416,
+      "vendor": 542,
+      "name": "Miasteczko Nova Ochota",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.94244837737133,
+          52.19304178054919
+        ]
+      }
+    },
+    {
+      "id": 11483,
+      "vendor": 4279,
+      "name": "Zielone Zamienie IV",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.96778317288512,
+          52.11203846690613
+        ]
+      }
+    },
+    {
+      "id": 11255,
+      "vendor": 1578,
+      "name": "Naukowa ABC",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.93200778097321,
+          52.20431761888906
+        ]
+      }
+    },
+    {
+      "id": 11500,
+      "vendor": 3433,
+      "name": "Home Factory",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.014790591882626,
+          52.27747891962712
+        ]
+      }
+    },
+    {
+      "id": 10585,
+      "vendor": 1046,
+      "name": "Osiedle Trakt Lubelski- etap I",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.133530357601455,
+          52.20018888597951
+        ]
+      }
+    },
+    {
+      "id": 7366,
+      "vendor": 934,
+      "name": "Poloneza",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.005698533421434,
+          52.14696013268232
+        ]
+      }
+    },
+    {
+      "id": 11189,
+      "vendor": 544,
+      "name": "NOVA PRAGA - OSIECKA",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.10619521051971,
+          52.24086521280682
+        ]
+      }
+    },
+    {
+      "id": 11102,
+      "vendor": 863,
+      "name": "Tulip Wilanów",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.1119928701654,
+          52.164101964258755
+        ]
+      }
+    },
+    {
+      "id": 11191,
+      "vendor": 2011,
+      "name": "Osiedle Yugo",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.09624633566308,
+          52.22095978733415
+        ]
+      }
+    },
+    {
+      "id": 10945,
+      "vendor": 779,
+      "name": "Zen Garden Mokotów",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.076575504109943,
+          52.185049662148394
+        ]
+      }
+    },
+    {
+      "id": 7991,
+      "vendor": 1986,
+      "name": "Jaśminowy Mokotów",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.043072342819325,
+          52.18460258101789
+        ]
+      }
+    },
+    {
+      "id": 10571,
+      "vendor": 2676,
+      "name": "Dzikiej Kaczki",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.944712100135465,
+          52.34395382120275
+        ]
+      }
+    },
+    {
+      "id": 11011,
+      "vendor": 5665,
+      "name": "Moduo Gardens",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.997144048867913,
+          52.176823513349554
+        ]
+      }
+    },
+    {
+      "id": 9928,
+      "vendor": 856,
+      "name": "Wilania",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.075685391812648,
+          52.15381188416533
+        ]
+      }
+    },
+    {
+      "id": 10615,
+      "vendor": 7478,
+      "name": "Widoki Mokotów",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.025184154363075,
+          52.20073329693995
+        ]
+      }
+    },
+    {
+      "id": 9191,
+      "vendor": 1986,
+      "name": "Mickiewicza 3",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.972803322352792,
+          52.27893948014509
+        ]
+      }
+    },
+    {
+      "id": 9019,
+      "vendor": 1932,
+      "name": "Karczewska 16",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.094538734263285,
+          52.24092659502138
+        ]
+      }
+    },
+    {
+      "id": 9109,
+      "vendor": 2856,
+      "name": "My Bemowo 3",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.892311687016885,
+          52.23007529540098
+        ]
+      }
+    },
+    {
+      "id": 9689,
+      "vendor": 6658,
+      "name": "Skaryszewska 11",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.047445531190405,
+          52.249592299181586
+        ]
+      }
+    },
+    {
+      "id": 11050,
+      "vendor": 2138,
+      "name": "Przy Doryckiej",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.94139646504883,
+          52.295593032172015
+        ]
+      }
+    },
+    {
+      "id": 4332,
+      "vendor": 542,
+      "name": "Osiedle Classic",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.98034469183369,
+          52.309298922382844
+        ]
+      }
+    },
+    {
+      "id": 10645,
+      "vendor": 5491,
+      "name": "Gorzelnicza 12",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.126111001902952,
+          52.24049249882221
+        ]
+      }
+    },
+    {
+      "id": 10754,
+      "vendor": 1198,
+      "name": "sPlace Park",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.971161135080052,
+          52.25904511921121
+        ]
+      }
+    },
+    {
+      "id": 10910,
+      "vendor": 4660,
+      "name": "Parkur Residence",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.994758795850366,
+          52.16929043558832
+        ]
+      }
+    },
+    {
+      "id": 10130,
+      "vendor": 1932,
+      "name": "Wincentego 66",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.043433323789465,
+          52.274379174145125
+        ]
+      }
+    },
+    {
+      "id": 10217,
+      "vendor": 1236,
+      "name": "Mangalia Mokotów II",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.04800707255502,
+          52.18793370175133
+        ]
+      }
+    },
+    {
+      "id": 10568,
+      "vendor": 816,
+      "name": "Ursa Home",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.889426736210588,
+          52.199254314968044
+        ]
+      }
+    },
+    {
+      "id": 9050,
+      "vendor": 2856,
+      "name": "Lifetown",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.99191565311484,
+          52.15780500337584
+        ]
+      }
+    },
+    {
+      "id": 10370,
+      "vendor": 5854,
+      "name": "NeoVita etap III",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.038499113903473,
+          52.35185359627779
+        ]
+      }
+    },
+    {
+      "id": 10289,
+      "vendor": 1932,
+      "name": "Szwedzka 4",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.046564536019762,
+          52.26115461634601
+        ]
+      }
+    },
+    {
+      "id": 11320,
+      "vendor": 3040,
+      "name": "Apartamenty Niemcewicza 19",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.98216480736189,
+          52.221252503443026
+        ]
+      }
+    },
+    {
+      "id": 10310,
+      "vendor": 2648,
+      "name": "Głębocka 72",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.066910562718522,
+          52.3136510938977
+        ]
+      }
+    },
+    {
+      "id": 10309,
+      "vendor": 5152,
+      "name": "Vis A Vis Wola - etap II",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.95583639057991,
+          52.22472864963554
+        ]
+      }
+    },
+    {
+      "id": 8045,
+      "vendor": 921,
+      "name": "Avore",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.026487566522693,
+          52.18325610880458
+        ]
+      }
+    },
+    {
+      "id": 10011,
+      "vendor": 888,
+      "name": "City Sfera",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.935325828928523,
+          52.20637720189281
+        ]
+      }
+    },
+    {
+      "id": 7439,
+      "vendor": 5265,
+      "name": "Willa Odolany",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.938219844914695,
+          52.22146813460612
+        ]
+      }
+    },
+    {
+      "id": 8997,
+      "vendor": 2472,
+      "name": "Osiedle Pod Dębami",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.991922401972822,
+          52.31074646027179
+        ]
+      }
+    },
+    {
+      "id": 10211,
+      "vendor": 4660,
+      "name": "Aroma Park",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.96950296472583,
+          52.33308610555151
+        ]
+      }
+    },
+    {
+      "id": 9470,
+      "vendor": 1868,
+      "name": "Omulewska",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.097342996726574,
+          52.24206631805533
+        ]
+      }
+    },
+    {
+      "id": 7889,
+      "vendor": 975,
+      "name": "Ogrody Wiślane",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.943148490080272,
+          52.342415422703404
+        ]
+      }
+    },
+    {
+      "id": 9698,
+      "vendor": 1084,
+      "name": "Osiedle Warszawa etap III",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.92001897844875,
+          52.19211962469838
+        ]
+      }
+    },
+    {
+      "id": 11264,
+      "vendor": 1236,
+      "name": "Wiślany Mokotów etap V",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.067237520542808,
+          52.2085782245968
+        ]
+      }
+    },
+    {
+      "id": 10078,
+      "vendor": 833,
+      "name": "Apartamenty Okopowa 59A",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.97897933791547,
+          52.250491460147806
+        ]
+      }
+    },
+    {
+      "id": 8888,
+      "vendor": 544,
+      "name": "Bulwary Augustówka",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.0801647024837,
+          52.18389510261204
+        ]
+      }
+    },
+    {
+      "id": 11187,
+      "vendor": 7700,
+      "name": "Ostródzka Park",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.04916537445315,
+          52.3250039387459
+        ]
+      }
+    },
+    {
+      "id": 11289,
+      "vendor": 817,
+      "name": "Moja Północna",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.96715950850379,
+          52.318778151666216
+        ]
+      }
+    },
+    {
+      "id": 9978,
+      "vendor": 542,
+      "name": "Variant Praga",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.135897267795883,
+          52.240415402290054
+        ]
+      }
+    },
+    {
+      "id": 10851,
+      "vendor": 5207,
+      "name": "Kamienica Wilcza 19",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.018349156416836,
+          52.22529838720732
+        ]
+      }
+    },
+    {
+      "id": 10178,
+      "vendor": 1378,
+      "name": "Obwodowa",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.040449882692972,
+          52.27464459038663
+        ]
+      }
+    },
+    {
+      "id": 8094,
+      "vendor": 1026,
+      "name": "ul. Poronińska 8",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.93344679576323,
+          52.210538357335224
+        ]
+      }
+    },
+    {
+      "id": 11030,
+      "vendor": 888,
+      "name": "Apartamenty Królewskie",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.06650126014435,
+          52.164579275577736
+        ]
+      }
+    },
+    {
+      "id": 10257,
+      "vendor": 825,
+      "name": "Osiedle ORSO",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.872112751877033,
+          52.18884860351801
+        ]
+      }
+    },
+    {
+      "id": 9044,
+      "vendor": 3808,
+      "name": "Wólczyńskaah! II etap",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.919641123475483,
+          52.28100151777233
+        ]
+      }
+    },
+    {
+      "id": 11502,
+      "vendor": 2856,
+      "name": "Golden Space",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.938134610611147,
+          52.20506079302869
+        ]
+      }
+    },
+    {
+      "id": 10488,
+      "vendor": 2815,
+      "name": "wolaRE",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.96667428891472,
+          52.24464301716371
+        ]
+      }
+    },
+    {
+      "id": 9173,
+      "vendor": 484,
+      "name": "Ogrody Przyjaciół 4",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.01744389811388,
+          52.33417758834871
+        ]
+      }
+    },
+    {
+      "id": 9939,
+      "vendor": 844,
+      "name": "Dom przy Okrzei",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.03109519584235,
+          52.249140645179985
+        ]
+      }
+    },
+    {
+      "id": 11252,
+      "vendor": 542,
+      "name": "Przystanek Tarchomin",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.951000119428105,
+          52.33924450701733
+        ]
+      }
+    },
+    {
+      "id": 11303,
+      "vendor": 3824,
+      "name": "Horyzont Praga",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.111765396885698,
+          52.23073678860234
+        ]
+      }
+    },
+    {
+      "id": 11083,
+      "vendor": 1938,
+      "name": "Aleja Słowiańska",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.96558003938425,
+          52.27550365834281
+        ]
+      }
+    },
+    {
+      "id": 9433,
+      "vendor": 6409,
+      "name": "W52",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.002350096434462,
+          52.192849908676486
+        ]
+      }
+    },
+    {
+      "id": 10698,
+      "vendor": 1084,
+      "name": "Nowa Grochowska",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.122733897210377,
+          52.23521235336245
+        ]
+      }
+    },
+    {
+      "id": 10286,
+      "vendor": 2856,
+      "name": "Bemowo Line",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.88869464882178,
+          52.227330799535544
+        ]
+      }
+    },
+    {
+      "id": 8977,
+      "vendor": 1513,
+      "name": "Larix Garden",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.898743610202114,
+          52.2181588343528
+        ]
+      }
+    },
+    {
+      "id": 10720,
+      "vendor": 825,
+      "name": "Vitalité",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.098770820521388,
+          52.17955881640237
+        ]
+      }
+    },
+    {
+      "id": 10670,
+      "vendor": 1084,
+      "name": "Centro Ursus",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.880088870930667,
+          52.20379972190195
+        ]
+      }
+    },
+    {
+      "id": 8605,
+      "vendor": 888,
+      "name": "Osiedle Życzliwa Praga - etap I",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.975717007732335,
+          52.31373757561513
+        ]
+      }
+    },
+    {
+      "id": 10955,
+      "vendor": 1932,
+      "name": "Magnacka 1",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.858413876729408,
+          52.19608826705717
+        ]
+      }
+    },
+    {
+      "id": 9054,
+      "vendor": 888,
+      "name": "Osiedle Życzliwa Praga - etap II",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.975719135727253,
+          52.31369920747539
+        ]
+      }
+    },
+    {
+      "id": 9932,
+      "vendor": 888,
+      "name": "Forum Wola Etap III",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.940135983714207,
+          52.22382693351973
+        ]
+      }
+    },
+    {
+      "id": 8053,
+      "vendor": 3892,
+      "name": "Zielone Osiedle",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.933060327896033,
+          52.34084961154431
+        ]
+      }
+    },
+    {
+      "id": 10218,
+      "vendor": 421,
+      "name": "Future Gardens",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.03686420321686,
+          52.32847650573248
+        ]
+      }
+    },
+    {
+      "id": 10350,
+      "vendor": 888,
+      "name": "Mój Ursus",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.882501814907343,
+          52.20472535108058
+        ]
+      }
+    },
+    {
+      "id": 10382,
+      "vendor": 941,
+      "name": "Szczęśliwicka 42",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.97004378316161,
+          52.21683561143151
+        ]
+      }
+    },
+    {
+      "id": 10855,
+      "vendor": 1236,
+      "name": "Wola Skwer",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.963348520631328,
+          52.24649901107961
+        ]
+      }
+    },
+    {
+      "id": 9421,
+      "vendor": 1040,
+      "name": "Osiedle Żółwia",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.922235717257035,
+          52.27159494775742
+        ]
+      }
+    },
+    {
+      "id": 9735,
+      "vendor": 888,
+      "name": "Osiedle Życzliwa Praga - etap VII",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.975662092995726,
+          52.31371677453866
+        ]
+      }
+    },
+    {
+      "id": 9750,
+      "vendor": 1553,
+      "name": "Wola Gabriela",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.93331321830825,
+          52.22198023212009
+        ]
+      }
+    },
+    {
+      "id": 9120,
+      "vendor": 542,
+      "name": "Ursus Factory",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.88625941456486,
+          52.199074062412365
+        ]
+      }
+    },
+    {
+      "id": 11190,
+      "vendor": 7183,
+      "name": "Bliżej Gwiazd na Mehoffera",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.95225113375193,
+          52.328323088832455
+        ]
+      }
+    },
+    {
+      "id": 9637,
+      "vendor": 6639,
+      "name": "Rezydencja Potocka",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.985455840245276,
+          52.27860368133884
+        ]
+      }
+    },
+    {
+      "id": 8673,
+      "vendor": 4660,
+      "name": "Nordic Mokotów etap III",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.043832739411823,
+          52.18303527118586
+        ]
+      }
+    },
+    {
+      "id": 9474,
+      "vendor": 825,
+      "name": "Wileńska Express",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.0430748588355,
+          52.258874260483374
+        ]
+      }
+    },
+    {
+      "id": 10271,
+      "vendor": 888,
+      "name": "Modern City",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.885275088471115,
+          52.224767537902245
+        ]
+      }
+    },
+    {
+      "id": 10710,
+      "vendor": 863,
+      "name": "Ursus Centralny",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.87692967895624,
+          52.20139984082749
+        ]
+      }
+    },
+    {
+      "id": 10920,
+      "vendor": 2815,
+      "name": "Rezydencja Barska",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.977433440772568,
+          52.21927715321317
+        ]
+      }
+    },
+    {
+      "id": 10584,
+      "vendor": 888,
+      "name": "Mój Ursus etap 2",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.88274195076862,
+          52.20452357338523
+        ]
+      }
+    },
+    {
+      "id": 8226,
+      "vendor": 1986,
+      "name": "Holm House",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.01145233686075,
+          52.1845397038006
+        ]
+      }
+    },
+    {
+      "id": 10895,
+      "vendor": 2748,
+      "name": "Na Wiązanej",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.144481527610708,
+          52.20364493816814
+        ]
+      }
+    },
+    {
+      "id": 10158,
+      "vendor": 2670,
+      "name": "Nowa Mangalia",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.046808033485682,
+          52.186244933439575
+        ]
+      }
+    },
+    {
+      "id": 8487,
+      "vendor": 844,
+      "name": "Harmony Park",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.992062516065072,
+          52.162198285188886
+        ]
+      }
+    },
+    {
+      "id": 10250,
+      "vendor": 825,
+      "name": "Foret",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.996508156545566,
+          52.31966827495363
+        ]
+      }
+    },
+    {
+      "id": 10746,
+      "vendor": 542,
+      "name": "Metro Połczyńska",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.889731215105492,
+          52.22003228342913
+        ]
+      }
+    },
+    {
+      "id": 10051,
+      "vendor": 888,
+      "name": "Praga Arte",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.07281398874062,
+          52.254232583691
+        ]
+      }
+    },
+    {
+      "id": 10177,
+      "vendor": 542,
+      "name": "Moja Ochota",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.943307076434596,
+          52.20015826297397
+        ]
+      }
+    },
+    {
+      "id": 8853,
+      "vendor": 5665,
+      "name": "Moduo Apartments",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.996627196622295,
+          52.17651935735828
+        ]
+      }
+    },
+    {
+      "id": 10443,
+      "vendor": 921,
+      "name": "Esteio",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.925560635827743,
+          52.24298254413637
+        ]
+      }
+    },
+    {
+      "id": 8362,
+      "vendor": 3040,
+      "name": "Nowy Park",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.974765606469234,
+          52.32120226033769
+        ]
+      }
+    },
+    {
+      "id": 10852,
+      "vendor": 2118,
+      "name": "Zwoleńska 90",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.151853982764102,
+          52.20117338034339
+        ]
+      }
+    },
+    {
+      "id": 10707,
+      "vendor": 2572,
+      "name": "Barwinicza 8",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.1022682340897,
+          52.24963196528544
+        ]
+      }
+    },
+    {
+      "id": 10868,
+      "vendor": 2110,
+      "name": "Villa Merkury II",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.89505690998176,
+          52.242711794708505
+        ]
+      }
+    },
+    {
+      "id": 9673,
+      "vendor": 412,
+      "name": "Apartamenty Nowy Marysin",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.13811701429598,
+          52.238028919604965
+        ]
+      }
+    },
+    {
+      "id": 8621,
+      "vendor": 1255,
+      "name": "Park Leśny Rembertów",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.117508176175388,
+          52.274478876131184
+        ]
+      }
+    },
+    {
+      "id": 10295,
+      "vendor": 6186,
+      "name": "Willa Joanna",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.066402970789547,
+          52.21173543866493
+        ]
+      }
+    },
+    {
+      "id": 11183,
+      "vendor": 888,
+      "name": "Mój Ursus etap 3",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.882817738050313,
+          52.20445016902897
+        ]
+      }
+    },
+    {
+      "id": 8363,
+      "vendor": 3917,
+      "name": "Osiedle na Bliskiej Woli",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.952587990922662,
+          52.227128516684076
+        ]
+      }
+    },
+    {
+      "id": 9717,
+      "vendor": 1451,
+      "name": "Dom HYGGE Mokotów",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.04665177360537,
+          52.197109059606056
+        ]
+      }
+    },
+    {
+      "id": 10151,
+      "vendor": 7153,
+      "name": "MOKO Concept Apartments",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.989241906167507,
+          52.18844311559548
+        ]
+      }
+    },
+    {
+      "id": 9380,
+      "vendor": 884,
+      "name": "Murapol Atrium Służewiec",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.992233626875688,
+          52.17624936262946
+        ]
+      }
+    },
+    {
+      "id": 9864,
+      "vendor": 884,
+      "name": "Murapol Osiedle Natura",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.05856630342058,
+          52.32769889323461
+        ]
+      }
+    },
+    {
+      "id": 10554,
+      "vendor": 3824,
+      "name": "Zielone Bemowo - etap II",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.895776124067464,
+          52.23451657444194
+        ]
+      }
+    },
+    {
+      "id": 7584,
+      "vendor": 1179,
+      "name": "Myśliborska 1",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.97953314353663,
+          52.299612510291894
+        ]
+      }
+    },
+    {
+      "id": 10771,
+      "vendor": 836,
+      "name": "Osiedle Orlik",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.08230123958015,
+          52.22732719314969
+        ]
+      }
+    },
+    {
+      "id": 9108,
+      "vendor": 1179,
+      "name": "Chrzanowskiego",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          21.075888331802716,
+          52.2525775370594
+        ]
+      }
+    },
+    {
+      "id": 9553,
+      "vendor": 1179,
+      "name": "Nocznickiego 29",
+      "geo_point": {
+        "type": "Point",
+        "coordinates": [
+          20.925136083798606,
+          52.28561383397139
+        ]
+      }
+    }
+]

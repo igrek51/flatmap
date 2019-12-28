@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Heatmaps</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #floating-panel {
+        position: absolute;
+        top: 10px;
+        left: 25%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+      #floating-panel {
+        background-color: #fff;
+        border: 1px solid #999;
+        left: 25%;
+        padding: 5px;
+        position: absolute;
+        top: 10px;
+        z-index: 5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="floating-panel">
+      <button onclick="toggleHeatmap()">Toggle Heatmap</button>
+      <button onclick="changeGradient()">Change gradient</button>
+      <button onclick="changeRadius()">Change radius</button>
+      <button onclick="changeOpacity()">Change opacity</button>
+      <button onclick="setDissipating()">Dissipate</button>
+    </div>
+    <div id="map"></div>
+    <script>
+
+      // This example requires the Visualization library. Include the libraries=visualization
+      // parameter when you first load the API. For example:
+      // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=visualization">
+
+      var map, heatmap;
+
+      function getGradient() {
+        return [
+          'rgba(0, 255, 255, 0)',
+
+          'rgba(0, 255, 0, 1)',
+          'rgba(255, 255, 0, 1)',
+          'rgba(255, 0, 0, 1)',
+          'rgba(255, 0, 255, 1)',
+
+          // 'rgba(0, 0, 255, 1)',
+          // 'rgba(0, 0, 223, 1)',
+          // 'rgba(0, 0, 191, 1)',
+          // 'rgba(0, 0, 159, 1)',
+          // 'rgba(0, 0, 127, 1)',
+          // 'rgba(63, 0, 91, 1)',
+          // 'rgba(127, 0, 63, 1)',
+          // 'rgba(191, 0, 31, 1)',
+          // 'rgba(255, 0, 0, 1)'
+	      ];
+	  }
+
+	  
+
+	  function addMarkers(map) {
+		  markers = getMarkers();
+		  for (var i = 0; i < markers.length; i++) {
+			  marker = markers[i]
+			  marker.setMap(map);
+		  }
+	  }
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: {lat: 52.22980836836125, lng: 20.93451625837321}
+        });
+
+        heatmap = new google.maps.visualization.HeatmapLayer({
+          data: getPoints(),
+          map: map,
+          gradient: getGradient(),
+          radius: 80,
+          dissipating: true
+        });
+
+        addMarkers(map)
+      }
+
+      function toggleHeatmap() {
+        heatmap.setMap(heatmap.getMap() ? null : map);
+      }
+
+      function changeGradient() {
+        heatmap.set('gradient', heatmap.get('gradient') ? null : getGradient());
+      }
+
+      function changeRadius() {
+        heatmap.set('radius', heatmap.get('radius') ? null : 20);
+      }
+
+      function changeOpacity() {
+        heatmap.set('opacity', heatmap.get('opacity') ? null : 1);
+      }
+
+      function setDissipating() {
+		heatmap.set('dissipating', heatmap.get('dissipating') ? false : true);
+      }
+
+      function getMarkers() {
+          return [
+              new google.maps.Marker({position: new google.maps.LatLng(52.22980836836125, 20.93451625837321), title: 'Na Woli, 8800 zl/m2', label: '8800', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#96d800", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.32631327043789, 21.04298194622129), title: 'Osiedle Hemara, 6000 zl/m2', label: '6000', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#0e8d00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.347975757648044, 20.954379581577204), title: 'Husa Park, 6900 zl/m2', label: '6900', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#2fa400", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.31684247656024, 20.95806580282947), title: 'Biały Dom, 7700 zl/m2', label: '7700', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#58bc00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.21524075375304, 21.042820166085455), title: 'Rezydencja Łazienki Park, 14185 zl/m2', label: '14185', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#ff2a00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.31909008781275, 20.999060424259373), title: 'Miasto Moje, 5700 zl/m2', label: '5700', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#058500", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.25949452497841, 21.162512111546175), title: 'Chruściela 54, 6700 zl/m2', label: '6700', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#279f00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.23156861568817, 20.97486625959048), title: 'W Apartments, 12957 zl/m2', label: '12957', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#ff6d00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.15827349453145, 21.198192308892), title: 'Miasteczko Wawer Etap II, 6651 zl/m2', label: '6651', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#279f00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.28727142883332, 21.019845192632634), title: 'Warszawski Świt, 7776 zl/m2', label: '7776', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#58bc00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.25338988293657, 21.077587046831685), title: 'Mały Grochów, 7800 zl/m2', label: '7800', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#5dbe00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.31436356026506, 21.036391852982568), title: 'Osiedle Echa Leśne, 6009 zl/m2', label: '6009', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#0e8d00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.319371209917485, 21.048720544193202), title: 'Apartamenty Ostródzka, 6000 zl/m2', label: '6000', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#0e8d00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.20258725454287, 20.857526006925024), title: 'Ursus City Residence, 6750 zl/m2', label: '6750', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#2ba200", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.14474824748546, 21.06671616030553), title: 'Natolin Park, 13000 zl/m2', label: '13000', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#ff6d00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.17634141671581, 21.06581909014984), title: 'Nordic Sadyba, 9576 zl/m2', label: '9576', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#cbed00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.27345396855498, 21.119047838282864), title: 'Park Leśny Rembertów Etap II, 6050 zl/m2', label: '6050', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#0e8d00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.28340323213585, 21.031505250066875), title: 'Villa Aliano, 9300 zl/m2', label: '9300', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#bde800", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.25939138863926, 21.049464266906377), title: 'Grodzieńska 19, 10000 zl/m2', label: '10000', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#f0fa00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.30477068458714, 20.98594413273445), title: 'Apartamenty Modlińska, 7290 zl/m2', label: '7290', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#40af00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.23924822687893, 21.256823664875068), title: 'Wodociągowa Etap III, 5800 zl/m2', label: '5800', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#088800", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.172932749971366, 21.11196545275016), title: 'Bruzdowa 127, 8300 zl/m2', label: '8300', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#78cb00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.18981061840554, 21.013567686758623), title: 'Cascade Residence, 13000 zl/m2', label: '13000', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#ff6d00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.25127601214081, 21.063889422243932), title: 'Soho 18, 7759 zl/m2', label: '7759', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#58bc00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.2402735949472, 21.11005887699155), title: 'Kamienica Grochowska, 7800 zl/m2', label: '7800', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#5dbe00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.32499272742045, 21.054634798995043), title: 'Villa Berensona, 6640 zl/m2', label: '6640', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#279f00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.193828189204964, 21.047489976691477), title: 'Moje Miejsce, 8700 zl/m2', label: '8700', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#90d600", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.21127129093637, 21.07017934639679), title: 'Nova Bluszczańska, 8300 zl/m2', label: '8300', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#78cb00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.32247889174245, 21.0573813023978), title: 'Skarbka Skwer, 5550 zl/m2', label: '5550', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "green", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.24965784893896, 21.063640255856168), title: 'Mińska 63, 8800 zl/m2', label: '8800', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#96d800", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.20701441333127, 20.880646204710885), title: 'Next Ursus, 6300 zl/m2', label: '6300', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#189500", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.18567400457191, 20.991072990311697), title: 'MOKOsfera, 9200 zl/m2', label: '9200', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#b0e200", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.32659915155896, 20.949529269917704), title: 'Mehoffera, 7630 zl/m2', label: '7630', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#53b900", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.31934217294683, 21.00061021300276), title: 'Marywilska Osiedle Kameralne, 6210 zl/m2', label: '6210', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#159200", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.204598385530176, 20.93265624813373), title: 'Naukowa 16, 9599 zl/m2', label: '9599', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#d2ef00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.22027492914517, 21.229710821519006), title: 'Rezydencja pod Świerkami, 6900 zl/m2', label: '6900', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#2fa400", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.27747891962712, 21.014790591882626), title: 'Home Factory, 7821 zl/m2', label: '7821', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#5dbe00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.20018888597951, 21.133530357601455), title: 'Osiedle Trakt Lubelski- etap I, 6500 zl/m2', label: '6500', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#1f9a00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.24086521280682, 21.10619521051971), title: 'NOVA PRAGA - OSIECKA, 8610 zl/m2', label: '8610', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#8ad300", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.34395382120275, 20.944712100135465), title: 'Dzikiej Kaczki, 6750 zl/m2', label: '6750', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#2ba200", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.20073329693995, 21.025184154363075), title: 'Widoki Mokotów, 14160 zl/m2', label: '14160', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#ff2a00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.249592299181586, 21.047445531190405), title: 'Skaryszewska 11, 10900 zl/m2', label: '10900', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#ffe000", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.16929043558832, 20.994758795850366), title: 'Parkur Residence, 8349 zl/m2', label: '8349', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#7ece00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.274379174145125, 21.043433323789465), title: 'Wincentego 66, 8300 zl/m2', label: '8300', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#78cb00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.199254314968044, 20.889426736210588), title: 'Ursa Home, 7400 zl/m2', label: '7400', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#49b400", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.15780500337584, 20.99191565311484), title: 'Lifetown, 7100 zl/m2', label: '7100', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#37a900", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.35185359627779, 21.038499113903473), title: 'NeoVita etap III, 5750 zl/m2', label: '5750', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#058500", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.3136510938977, 21.066910562718522), title: 'Głębocka 72, 6301 zl/m2', label: '6301', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#189500", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.33308610555151, 20.96950296472583), title: 'Aroma Park, 7325 zl/m2', label: '7325', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#45b100", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.19211962469838, 20.92001897844875), title: 'Osiedle Warszawa etap III, 6800 zl/m2', label: '6800', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#2ba200", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.250491460147806, 20.97897933791547), title: 'Apartamenty Okopowa 59A, 10399 zl/m2', label: '10399', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#fffa00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.18389510261204, 21.0801647024837), title: 'Bulwary Augustówka, 7490 zl/m2', label: '7490', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#49b400", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.318778151666216, 20.96715950850379), title: 'Moja Północna, 7698 zl/m2', label: '7698', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#58bc00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.210538357335224, 20.93344679576323), title: 'ul. Poronińska 8, 7500 zl/m2', label: '7500', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#4eb600", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.24464301716371, 20.96667428891472), title: 'wolaRE, 9213 zl/m2', label: '9213', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#b6e500", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.33417758834871, 21.01744389811388), title: 'Ogrody Przyjaciół 4, 5500 zl/m2', label: '5500', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "green", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.249140645179985, 21.03109519584235), title: 'Dom przy Okrzei, 12100 zl/m2', label: '12100', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#ff9c00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.227330799535544, 20.88869464882178), title: 'Bemowo Line, 7500 zl/m2', label: '7500', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#4eb600", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.20379972190195, 20.880088870930667), title: 'Centro Ursus, 6531 zl/m2', label: '6531', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#1f9a00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.19608826705717, 20.858413876729408), title: 'Magnacka 1, 6950 zl/m2', label: '6950', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#33a700", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.22382693351973, 20.940135983714207), title: 'Forum Wola Etap III, 9550 zl/m2', label: '9550', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#cbed00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.34084961154431, 20.933060327896033), title: 'Zielone Osiedle, 5850 zl/m2', label: '5850', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#088800", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.32847650573248, 21.03686420321686), title: 'Future Gardens, 5900 zl/m2', label: '5900', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#0b8a00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.21683561143151, 20.97004378316161), title: 'Szczęśliwicka 42, 11100 zl/m2', label: '11100', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#ffd500", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.24649901107961, 20.963348520631328), title: 'Wola Skwer, 9100 zl/m2', label: '9100', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#a9e000", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.31371677453866, 20.975662092995726), title: 'Osiedle Życzliwa Praga - etap VII, 6900 zl/m2', label: '6900', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#2fa400", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.27860368133884, 20.985455840245276), title: 'Rezydencja Potocka, 14900 zl/m2', label: '14900', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "red", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.18303527118586, 21.043832739411823), title: 'Nordic Mokotów etap III, 9543 zl/m2', label: '9543', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#cbed00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.20139984082749, 20.87692967895624), title: 'Ursus Centralny, 7547 zl/m2', label: '7547', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#4eb600", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.21927715321317, 20.977433440772568), title: 'Rezydencja Barska, 10100 zl/m2', label: '10100', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#f7fc00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.20364493816814, 21.144481527610708), title: 'Na Wiązanej, 6363 zl/m2', label: '6363', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#1c9700", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.162198285188886, 20.992062516065072), title: 'Harmony Park, 8605 zl/m2', label: '8605', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#8ad300", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.32120226033769, 20.974765606469234), title: 'Nowy Park, 6300 zl/m2', label: '6300', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#189500", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.20117338034339, 21.151853982764102), title: 'Zwoleńska 90, 6510 zl/m2', label: '6510', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#1f9a00", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.299612510291894, 20.97953314353663), title: 'Myśliborska 1, 7500 zl/m2', label: '7500', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#4eb600", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.2525775370594, 21.075888331802716), title: 'Chrzanowskiego, 8800 zl/m2', label: '8800', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#96d800", fillOpacity: 0.6, strokeWeight: 0.3} }),
+              new google.maps.Marker({position: new google.maps.LatLng(52.28561383397139, 20.925136083798606), title: 'Nocznickiego 29, 10500 zl/m2', label: '10500', icon: {path: google.maps.SymbolPath.CIRCLE, scale: 20, fillColor: "#fff500", fillOpacity: 0.6, strokeWeight: 0.3} }),
+
+          ];
+	  }
+
+      function getPoints() {
+        return [
+          {location: new google.maps.LatLng(52.22980836836125, 20.93451625837321), weight: 8800},
+          {location: new google.maps.LatLng(52.32631327043789, 21.04298194622129), weight: 6000},
+          {location: new google.maps.LatLng(52.22553535561323, 21.037346807807047), weight: 18500},
+          {location: new google.maps.LatLng(52.347975757648044, 20.954379581577204), weight: 6900},
+          {location: new google.maps.LatLng(52.31684247656024, 20.95806580282947), weight: 7700},
+          {location: new google.maps.LatLng(52.21524075375304, 21.042820166085455), weight: 14185},
+          {location: new google.maps.LatLng(52.31909008781275, 20.999060424259373), weight: 5700},
+          {location: new google.maps.LatLng(52.25949452497841, 21.162512111546175), weight: 6700},
+          {location: new google.maps.LatLng(52.23156861568817, 20.97486625959048), weight: 12957},
+          {location: new google.maps.LatLng(52.15827349453145, 21.198192308892), weight: 6651},
+          {location: new google.maps.LatLng(52.28727142883332, 21.019845192632634), weight: 7776},
+          {location: new google.maps.LatLng(52.25338988293657, 21.077587046831685), weight: 7800},
+          {location: new google.maps.LatLng(52.31436356026506, 21.036391852982568), weight: 6009},
+          {location: new google.maps.LatLng(52.319371209917485, 21.048720544193202), weight: 6000},
+          {location: new google.maps.LatLng(52.20258725454287, 20.857526006925024), weight: 6750},
+          {location: new google.maps.LatLng(52.14474824748546, 21.06671616030553), weight: 13000},
+          {location: new google.maps.LatLng(52.17634141671581, 21.06581909014984), weight: 9576},
+          {location: new google.maps.LatLng(52.27345396855498, 21.119047838282864), weight: 6050},
+          {location: new google.maps.LatLng(52.28340323213585, 21.031505250066875), weight: 9300},
+          {location: new google.maps.LatLng(52.25939138863926, 21.049464266906377), weight: 10000},
+          {location: new google.maps.LatLng(52.30477068458714, 20.98594413273445), weight: 7290},
+          {location: new google.maps.LatLng(52.23924822687893, 21.256823664875068), weight: 5800},
+          {location: new google.maps.LatLng(52.172932749971366, 21.11196545275016), weight: 8300},
+          {location: new google.maps.LatLng(52.18981061840554, 21.013567686758623), weight: 13000},
+          {location: new google.maps.LatLng(52.25127601214081, 21.063889422243932), weight: 7759},
+          {location: new google.maps.LatLng(52.2402735949472, 21.11005887699155), weight: 7800},
+          {location: new google.maps.LatLng(52.32499272742045, 21.054634798995043), weight: 6640},
+          {location: new google.maps.LatLng(52.193828189204964, 21.047489976691477), weight: 8700},
+          {location: new google.maps.LatLng(52.21127129093637, 21.07017934639679), weight: 8300},
+          {location: new google.maps.LatLng(52.32247889174245, 21.0573813023978), weight: 5550},
+          {location: new google.maps.LatLng(52.24965784893896, 21.063640255856168), weight: 8800},
+          {location: new google.maps.LatLng(52.20701441333127, 20.880646204710885), weight: 6300},
+          {location: new google.maps.LatLng(52.18567400457191, 20.991072990311697), weight: 9200},
+          {location: new google.maps.LatLng(52.32659915155896, 20.949529269917704), weight: 7630},
+          {location: new google.maps.LatLng(52.31934217294683, 21.00061021300276), weight: 6210},
+          {location: new google.maps.LatLng(52.204598385530176, 20.93265624813373), weight: 9599},
+          {location: new google.maps.LatLng(52.22027492914517, 21.229710821519006), weight: 6900},
+          {location: new google.maps.LatLng(52.11203846690613, 20.96778317288512), weight: 5350},
+          {location: new google.maps.LatLng(52.27747891962712, 21.014790591882626), weight: 7821},
+          {location: new google.maps.LatLng(52.20018888597951, 21.133530357601455), weight: 6500},
+          {location: new google.maps.LatLng(52.24086521280682, 21.10619521051971), weight: 8610},
+          {location: new google.maps.LatLng(52.34395382120275, 20.944712100135465), weight: 6750},
+          {location: new google.maps.LatLng(52.20073329693995, 21.025184154363075), weight: 14160},
+          {location: new google.maps.LatLng(52.249592299181586, 21.047445531190405), weight: 10900},
+          {location: new google.maps.LatLng(52.16929043558832, 20.994758795850366), weight: 8349},
+          {location: new google.maps.LatLng(52.274379174145125, 21.043433323789465), weight: 8300},
+          {location: new google.maps.LatLng(52.199254314968044, 20.889426736210588), weight: 7400},
+          {location: new google.maps.LatLng(52.15780500337584, 20.99191565311484), weight: 7100},
+          {location: new google.maps.LatLng(52.35185359627779, 21.038499113903473), weight: 5750},
+          {location: new google.maps.LatLng(52.3136510938977, 21.066910562718522), weight: 6301},
+          {location: new google.maps.LatLng(52.33308610555151, 20.96950296472583), weight: 7325},
+          {location: new google.maps.LatLng(52.19211962469838, 20.92001897844875), weight: 6800},
+          {location: new google.maps.LatLng(52.250491460147806, 20.97897933791547), weight: 10399},
+          {location: new google.maps.LatLng(52.18389510261204, 21.0801647024837), weight: 7490},
+          {location: new google.maps.LatLng(52.318778151666216, 20.96715950850379), weight: 7698},
+          {location: new google.maps.LatLng(52.210538357335224, 20.93344679576323), weight: 7500},
+          {location: new google.maps.LatLng(52.24464301716371, 20.96667428891472), weight: 9213},
+          {location: new google.maps.LatLng(52.33417758834871, 21.01744389811388), weight: 5500},
+          {location: new google.maps.LatLng(52.249140645179985, 21.03109519584235), weight: 12100},
+          {location: new google.maps.LatLng(52.227330799535544, 20.88869464882178), weight: 7500},
+          {location: new google.maps.LatLng(52.20379972190195, 20.880088870930667), weight: 6531},
+          {location: new google.maps.LatLng(52.19608826705717, 20.858413876729408), weight: 6950},
+          {location: new google.maps.LatLng(52.22382693351973, 20.940135983714207), weight: 9550},
+          {location: new google.maps.LatLng(52.34084961154431, 20.933060327896033), weight: 5850},
+          {location: new google.maps.LatLng(52.32847650573248, 21.03686420321686), weight: 5900},
+          {location: new google.maps.LatLng(52.21683561143151, 20.97004378316161), weight: 11100},
+          {location: new google.maps.LatLng(52.24649901107961, 20.963348520631328), weight: 9100},
+          {location: new google.maps.LatLng(52.31371677453866, 20.975662092995726), weight: 6900},
+          {location: new google.maps.LatLng(52.27860368133884, 20.985455840245276), weight: 14900},
+          {location: new google.maps.LatLng(52.18303527118586, 21.043832739411823), weight: 9543},
+          {location: new google.maps.LatLng(52.20139984082749, 20.87692967895624), weight: 7547},
+          {location: new google.maps.LatLng(52.21927715321317, 20.977433440772568), weight: 10100},
+          {location: new google.maps.LatLng(52.20364493816814, 21.144481527610708), weight: 6363},
+          {location: new google.maps.LatLng(52.162198285188886, 20.992062516065072), weight: 8605},
+          {location: new google.maps.LatLng(52.32120226033769, 20.974765606469234), weight: 6300},
+          {location: new google.maps.LatLng(52.20117338034339, 21.151853982764102), weight: 6510},
+          {location: new google.maps.LatLng(52.299612510291894, 20.97953314353663), weight: 7500},
+          {location: new google.maps.LatLng(52.2525775370594, 21.075888331802716), weight: 8800},
+          {location: new google.maps.LatLng(52.28561383397139, 20.925136083798606), weight: 10500},
+        ];
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?libraries=visualization&callback=initMap">
+    </script>
+  </body>
+</html>

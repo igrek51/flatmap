@@ -1,0 +1,618 @@
+[
+  {
+    "offer_id": 7404,
+    "name": "Na Woli",
+    "longitude": 20.93451625837321,
+    "latitude": 52.22980836836125,
+    "price_m2_min": 8800,
+    "price_m2_max": 11750
+  },
+  {
+    "offer_id": 10483,
+    "name": "Osiedle Hemara",
+    "longitude": 21.04298194622129,
+    "latitude": 52.32631327043789,
+    "price_m2_min": 6000,
+    "price_m2_max": 7100
+  },
+  {
+    "offer_id": 10863,
+    "name": "Husa Park",
+    "longitude": 20.954379581577204,
+    "latitude": 52.347975757648044,
+    "price_m2_min": 6900,
+    "price_m2_max": 6900
+  },
+  {
+    "offer_id": 10320,
+    "name": "Biały Dom",
+    "longitude": 20.95806580282947,
+    "latitude": 52.31684247656024,
+    "price_m2_min": 7700,
+    "price_m2_max": 0
+  },
+  {
+    "offer_id": 10254,
+    "name": "Rezydencja Łazienki Park",
+    "longitude": 21.042820166085455,
+    "latitude": 52.21524075375304,
+    "price_m2_min": 14185,
+    "price_m2_max": 27698
+  },
+  {
+    "offer_id": 7673,
+    "name": "Miasto Moje",
+    "longitude": 20.999060424259373,
+    "latitude": 52.31909008781275,
+    "price_m2_min": 5700,
+    "price_m2_max": 7987
+  },
+  {
+    "offer_id": 10712,
+    "name": "Chruściela 54",
+    "longitude": 21.162512111546175,
+    "latitude": 52.25949452497841,
+    "price_m2_min": 6700,
+    "price_m2_max": 7600
+  },
+  {
+    "offer_id": 10557,
+    "name": "W Apartments",
+    "longitude": 20.97486625959048,
+    "latitude": 52.23156861568817,
+    "price_m2_min": 12957,
+    "price_m2_max": 17504
+  },
+  {
+    "offer_id": 10305,
+    "name": "Miasteczko Wawer Etap II",
+    "longitude": 21.198192308892,
+    "latitude": 52.15827349453145,
+    "price_m2_min": 6651,
+    "price_m2_max": 8505
+  },
+  {
+    "offer_id": 10122,
+    "name": "Warszawski Świt",
+    "longitude": 21.019845192632634,
+    "latitude": 52.28727142883332,
+    "price_m2_min": 7776,
+    "price_m2_max": 0
+  },
+  {
+    "offer_id": 10659,
+    "name": "Mały Grochów",
+    "longitude": 21.077587046831685,
+    "latitude": 52.25338988293657,
+    "price_m2_min": 7800,
+    "price_m2_max": 9550
+  },
+  {
+    "offer_id": 11423,
+    "name": "Osiedle Echa Leśne",
+    "longitude": 21.036391852982568,
+    "latitude": 52.31436356026506,
+    "price_m2_min": 6009,
+    "price_m2_max": 7184
+  },
+  {
+    "offer_id": 11620,
+    "name": "Apartamenty Ostródzka",
+    "longitude": 21.048720544193202,
+    "latitude": 52.319371209917485,
+    "price_m2_min": 6000,
+    "price_m2_max": 7400
+  },
+  {
+    "offer_id": 11606,
+    "name": "Ursus City Residence",
+    "longitude": 20.857526006925024,
+    "latitude": 52.20258725454287,
+    "price_m2_min": 6750,
+    "price_m2_max": 8800
+  },
+  {
+    "offer_id": 11629,
+    "name": "Natolin Park",
+    "longitude": 21.06671616030553,
+    "latitude": 52.14474824748546,
+    "price_m2_min": 13000,
+    "price_m2_max": 14500
+  },
+  {
+    "offer_id": 11682,
+    "name": "Nordic Sadyba",
+    "longitude": 21.06581909014984,
+    "latitude": 52.17634141671581,
+    "price_m2_min": 9576,
+    "price_m2_max": 15640
+  },
+  {
+    "offer_id": 11650,
+    "name": "Park Leśny Rembertów Etap II",
+    "longitude": 21.119047838282864,
+    "latitude": 52.27345396855498,
+    "price_m2_min": 6050,
+    "price_m2_max": 8900
+  },
+  {
+    "offer_id": 11664,
+    "name": "Villa Aliano",
+    "longitude": 21.031505250066875,
+    "latitude": 52.28340323213585,
+    "price_m2_min": 9300,
+    "price_m2_max": 9650
+  },
+  {
+    "offer_id": 11598,
+    "name": "Grodzieńska 19",
+    "longitude": 21.049464266906377,
+    "latitude": 52.25939138863926,
+    "price_m2_min": 10000,
+    "price_m2_max": 12900
+  },
+  {
+    "offer_id": 11568,
+    "name": "Apartamenty Modlińska",
+    "longitude": 20.98594413273445,
+    "latitude": 52.30477068458714,
+    "price_m2_min": 7290,
+    "price_m2_max": 7890
+  },
+  {
+    "offer_id": 11530,
+    "name": "Wodociągowa Etap III",
+    "longitude": 21.256823664875068,
+    "latitude": 52.23924822687893,
+    "price_m2_min": 5800,
+    "price_m2_max": 6500
+  },
+  {
+    "offer_id": 10109,
+    "name": "Bruzdowa 127",
+    "longitude": 21.11196545275016,
+    "latitude": 52.172932749971366,
+    "price_m2_min": 8300,
+    "price_m2_max": 8820
+  },
+  {
+    "offer_id": 9336,
+    "name": "Cascade Residence",
+    "longitude": 21.013567686758623,
+    "latitude": 52.18981061840554,
+    "price_m2_min": 13000,
+    "price_m2_max": 21780
+  },
+  {
+    "offer_id": 11142,
+    "name": "Soho 18",
+    "longitude": 21.063889422243932,
+    "latitude": 52.25127601214081,
+    "price_m2_min": 7759,
+    "price_m2_max": 12396
+  },
+  {
+    "offer_id": 10582,
+    "name": "Kamienica Grochowska",
+    "longitude": 21.11005887699155,
+    "latitude": 52.2402735949472,
+    "price_m2_min": 7800,
+    "price_m2_max": 8650
+  },
+  {
+    "offer_id": 10989,
+    "name": "Villa Berensona",
+    "longitude": 21.054634798995043,
+    "latitude": 52.32499272742045,
+    "price_m2_min": 6640,
+    "price_m2_max": 6774
+  },
+  {
+    "offer_id": 10633,
+    "name": "Moje Miejsce",
+    "longitude": 21.047489976691477,
+    "latitude": 52.193828189204964,
+    "price_m2_min": 8700,
+    "price_m2_max": 0
+  },
+  {
+    "offer_id": 10546,
+    "name": "Nova Bluszczańska",
+    "longitude": 21.07017934639679,
+    "latitude": 52.21127129093637,
+    "price_m2_min": 8300,
+    "price_m2_max": 11000
+  },
+  {
+    "offer_id": 7842,
+    "name": "Skarbka Skwer",
+    "longitude": 21.0573813023978,
+    "latitude": 52.32247889174245,
+    "price_m2_min": 5550,
+    "price_m2_max": 6500
+  },
+  {
+    "offer_id": 9561,
+    "name": "Mińska 63",
+    "longitude": 21.063640255856168,
+    "latitude": 52.24965784893896,
+    "price_m2_min": 8800,
+    "price_m2_max": 8900
+  },
+  {
+    "offer_id": 8603,
+    "name": "Next Ursus",
+    "longitude": 20.880646204710885,
+    "latitude": 52.20701441333127,
+    "price_m2_min": 6300,
+    "price_m2_max": 0
+  },
+  {
+    "offer_id": 9730,
+    "name": "MOKOsfera",
+    "longitude": 20.991072990311697,
+    "latitude": 52.18567400457191,
+    "price_m2_min": 9200,
+    "price_m2_max": 12400
+  },
+  {
+    "offer_id": 10278,
+    "name": "Mehoffera",
+    "longitude": 20.949529269917704,
+    "latitude": 52.32659915155896,
+    "price_m2_min": 7630,
+    "price_m2_max": 9030
+  },
+  {
+    "offer_id": 9605,
+    "name": "Marywilska Osiedle Kameralne",
+    "longitude": 21.00061021300276,
+    "latitude": 52.31934217294683,
+    "price_m2_min": 6210,
+    "price_m2_max": 6840
+  },
+  {
+    "offer_id": 11434,
+    "name": "Naukowa 16",
+    "longitude": 20.93265624813373,
+    "latitude": 52.204598385530176,
+    "price_m2_min": 9599,
+    "price_m2_max": 10159
+  },
+  {
+    "offer_id": 11204,
+    "name": "Rezydencja pod Świerkami",
+    "longitude": 21.229710821519006,
+    "latitude": 52.22027492914517,
+    "price_m2_min": 6900,
+    "price_m2_max": 7550
+  },
+  {
+    "offer_id": 11500,
+    "name": "Home Factory",
+    "longitude": 21.014790591882626,
+    "latitude": 52.27747891962712,
+    "price_m2_min": 7821,
+    "price_m2_max": 8882
+  },
+  {
+    "offer_id": 10585,
+    "name": "Osiedle Trakt Lubelski- etap I",
+    "longitude": 21.133530357601455,
+    "latitude": 52.20018888597951,
+    "price_m2_min": 6500,
+    "price_m2_max": 7400
+  },
+  {
+    "offer_id": 11189,
+    "name": "NOVA PRAGA - OSIECKA",
+    "longitude": 21.10619521051971,
+    "latitude": 52.24086521280682,
+    "price_m2_min": 8610,
+    "price_m2_max": 9750
+  },
+  {
+    "offer_id": 10571,
+    "name": "Dzikiej Kaczki",
+    "longitude": 20.944712100135465,
+    "latitude": 52.34395382120275,
+    "price_m2_min": 6750,
+    "price_m2_max": 8147
+  },
+  {
+    "offer_id": 10615,
+    "name": "Widoki Mokotów",
+    "longitude": 21.025184154363075,
+    "latitude": 52.20073329693995,
+    "price_m2_min": 14160,
+    "price_m2_max": 0
+  },
+  {
+    "offer_id": 9689,
+    "name": "Skaryszewska 11",
+    "longitude": 21.047445531190405,
+    "latitude": 52.249592299181586,
+    "price_m2_min": 10900,
+    "price_m2_max": 0
+  },
+  {
+    "offer_id": 10910,
+    "name": "Parkur Residence",
+    "longitude": 20.994758795850366,
+    "latitude": 52.16929043558832,
+    "price_m2_min": 8349,
+    "price_m2_max": 14889
+  },
+  {
+    "offer_id": 10130,
+    "name": "Wincentego 66",
+    "longitude": 21.043433323789465,
+    "latitude": 52.274379174145125,
+    "price_m2_min": 8300,
+    "price_m2_max": 0
+  },
+  {
+    "offer_id": 10568,
+    "name": "Ursa Home",
+    "longitude": 20.889426736210588,
+    "latitude": 52.199254314968044,
+    "price_m2_min": 7400,
+    "price_m2_max": 8500
+  },
+  {
+    "offer_id": 9050,
+    "name": "Lifetown",
+    "longitude": 20.99191565311484,
+    "latitude": 52.15780500337584,
+    "price_m2_min": 7100,
+    "price_m2_max": 0
+  },
+  {
+    "offer_id": 10370,
+    "name": "NeoVita etap III",
+    "longitude": 21.038499113903473,
+    "latitude": 52.35185359627779,
+    "price_m2_min": 5750,
+    "price_m2_max": 6250
+  },
+  {
+    "offer_id": 10310,
+    "name": "Głębocka 72",
+    "longitude": 21.066910562718522,
+    "latitude": 52.3136510938977,
+    "price_m2_min": 6301,
+    "price_m2_max": 7216
+  },
+  {
+    "offer_id": 10211,
+    "name": "Aroma Park",
+    "longitude": 20.96950296472583,
+    "latitude": 52.33308610555151,
+    "price_m2_min": 7325,
+    "price_m2_max": 9810
+  },
+  {
+    "offer_id": 9698,
+    "name": "Osiedle Warszawa etap III",
+    "longitude": 20.92001897844875,
+    "latitude": 52.19211962469838,
+    "price_m2_min": 6800,
+    "price_m2_max": 7188
+  },
+  {
+    "offer_id": 10078,
+    "name": "Apartamenty Okopowa 59A",
+    "longitude": 20.97897933791547,
+    "latitude": 52.250491460147806,
+    "price_m2_min": 10399,
+    "price_m2_max": 12852
+  },
+  {
+    "offer_id": 8888,
+    "name": "Bulwary Augustówka",
+    "longitude": 21.0801647024837,
+    "latitude": 52.18389510261204,
+    "price_m2_min": 7490,
+    "price_m2_max": 9390
+  },
+  {
+    "offer_id": 11289,
+    "name": "Moja Północna",
+    "longitude": 20.96715950850379,
+    "latitude": 52.318778151666216,
+    "price_m2_min": 7698,
+    "price_m2_max": 9058
+  },
+  {
+    "offer_id": 8094,
+    "name": "ul. Poronińska 8",
+    "longitude": 20.93344679576323,
+    "latitude": 52.210538357335224,
+    "price_m2_min": 7500,
+    "price_m2_max": 7900
+  },
+  {
+    "offer_id": 10488,
+    "name": "wolaRE",
+    "longitude": 20.96667428891472,
+    "latitude": 52.24464301716371,
+    "price_m2_min": 9213,
+    "price_m2_max": 13786
+  },
+  {
+    "offer_id": 9173,
+    "name": "Ogrody Przyjaciół 4",
+    "longitude": 21.01744389811388,
+    "latitude": 52.33417758834871,
+    "price_m2_min": 5500,
+    "price_m2_max": 5899
+  },
+  {
+    "offer_id": 9939,
+    "name": "Dom przy Okrzei",
+    "longitude": 21.03109519584235,
+    "latitude": 52.249140645179985,
+    "price_m2_min": 12100,
+    "price_m2_max": 18000
+  },
+  {
+    "offer_id": 10286,
+    "name": "Bemowo Line",
+    "longitude": 20.88869464882178,
+    "latitude": 52.227330799535544,
+    "price_m2_min": 7500,
+    "price_m2_max": 9464
+  },
+  {
+    "offer_id": 10670,
+    "name": "Centro Ursus",
+    "longitude": 20.880088870930667,
+    "latitude": 52.20379972190195,
+    "price_m2_min": 6531,
+    "price_m2_max": 7439
+  },
+  {
+    "offer_id": 10955,
+    "name": "Magnacka 1",
+    "longitude": 20.858413876729408,
+    "latitude": 52.19608826705717,
+    "price_m2_min": 6950,
+    "price_m2_max": 0
+  },
+  {
+    "offer_id": 9932,
+    "name": "Forum Wola Etap III",
+    "longitude": 20.940135983714207,
+    "latitude": 52.22382693351973,
+    "price_m2_min": 9550,
+    "price_m2_max": 9550
+  },
+  {
+    "offer_id": 8053,
+    "name": "Zielone Osiedle",
+    "longitude": 20.933060327896033,
+    "latitude": 52.34084961154431,
+    "price_m2_min": 5850,
+    "price_m2_max": 5850
+  },
+  {
+    "offer_id": 10218,
+    "name": "Future Gardens",
+    "longitude": 21.03686420321686,
+    "latitude": 52.32847650573248,
+    "price_m2_min": 5900,
+    "price_m2_max": 6813
+  },
+  {
+    "offer_id": 10382,
+    "name": "Szczęśliwicka 42",
+    "longitude": 20.97004378316161,
+    "latitude": 52.21683561143151,
+    "price_m2_min": 11100,
+    "price_m2_max": 12000
+  },
+  {
+    "offer_id": 10855,
+    "name": "Wola Skwer",
+    "longitude": 20.963348520631328,
+    "latitude": 52.24649901107961,
+    "price_m2_min": 9100,
+    "price_m2_max": 10200
+  },
+  {
+    "offer_id": 9735,
+    "name": "Osiedle Życzliwa Praga - etap VII",
+    "longitude": 20.975662092995726,
+    "latitude": 52.31371677453866,
+    "price_m2_min": 6900,
+    "price_m2_max": 7300
+  },
+  {
+    "offer_id": 9637,
+    "name": "Rezydencja Potocka",
+    "longitude": 20.985455840245276,
+    "latitude": 52.27860368133884,
+    "price_m2_min": 14900,
+    "price_m2_max": 15700
+  },
+  {
+    "offer_id": 8673,
+    "name": "Nordic Mokotów etap III",
+    "longitude": 21.043832739411823,
+    "latitude": 52.18303527118586,
+    "price_m2_min": 9543,
+    "price_m2_max": 14742
+  },
+  {
+    "offer_id": 10710,
+    "name": "Ursus Centralny",
+    "longitude": 20.87692967895624,
+    "latitude": 52.20139984082749,
+    "price_m2_min": 7547,
+    "price_m2_max": 7856
+  },
+  {
+    "offer_id": 10920,
+    "name": "Rezydencja Barska",
+    "longitude": 20.977433440772568,
+    "latitude": 52.21927715321317,
+    "price_m2_min": 10100,
+    "price_m2_max": 15600
+  },
+  {
+    "offer_id": 10895,
+    "name": "Na Wiązanej",
+    "longitude": 21.144481527610708,
+    "latitude": 52.20364493816814,
+    "price_m2_min": 6363,
+    "price_m2_max": 6767
+  },
+  {
+    "offer_id": 8487,
+    "name": "Harmony Park",
+    "longitude": 20.992062516065072,
+    "latitude": 52.162198285188886,
+    "price_m2_min": 8605,
+    "price_m2_max": 10768
+  },
+  {
+    "offer_id": 8362,
+    "name": "Nowy Park",
+    "longitude": 20.974765606469234,
+    "latitude": 52.32120226033769,
+    "price_m2_min": 6300,
+    "price_m2_max": 7250
+  },
+  {
+    "offer_id": 10852,
+    "name": "Zwoleńska 90",
+    "longitude": 21.151853982764102,
+    "latitude": 52.20117338034339,
+    "price_m2_min": 6510,
+    "price_m2_max": 6879
+  },
+  {
+    "offer_id": 7584,
+    "name": "Myśliborska 1",
+    "longitude": 20.97953314353663,
+    "latitude": 52.299612510291894,
+    "price_m2_min": 7500,
+    "price_m2_max": 0
+  },
+  {
+    "offer_id": 9108,
+    "name": "Chrzanowskiego",
+    "longitude": 21.075888331802716,
+    "latitude": 52.2525775370594,
+    "price_m2_min": 8800,
+    "price_m2_max": 0
+  },
+  {
+    "offer_id": 9553,
+    "name": "Nocznickiego 29",
+    "longitude": 20.925136083798606,
+    "latitude": 52.28561383397139,
+    "price_m2_min": 10500,
+    "price_m2_max": 0
+  }
+]
